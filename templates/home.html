@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Lionel Tan">
+    <meta name="description" content="Welcome to my personal website.">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <script src="{{url_for('static', filename='javascript.js')}}"></script>
+    <title>Lionel Tan</title>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+	<div id="navbar">
+        <a class="page-scroll" href="#about">About</a>
+        <a class="page-scroll" href="#experience">Experience</a>
+        <a class="page-scroll" href="#internship">Internship</a>
+        <a class="page-scroll" href="#social">Connect</a>
+    </div>
+    <script type="text/javascript" src="/js/javascript.js"></script>
+
+    <!-- Intro Section -->
+	<section id="top">
+        <h1> Lionel Tan Si Yu</h1>
+          <p><small>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                  <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" fill="currentColor" fill-rule="evenodd"></path>
+              </svg>
+              London, United Kingdom
+          </small></p>
+    </section>
+
+    <!-- About Section -->
+	<section id="about">
+        <div class="content">
+            <p>I'm a first year at Imperial College London studying Electronic and Information Engineering. I'm a Singaporean who enjoys hiking and 
+                doing outdoor activites. I have a strong passion in Data Science and am a current member of the Advanced Data Science Team in 
+                Imperial College Data Science Society (ICDSS). I have a very strong drive in the pursuit of knowledge and am always seeking ways
+                to improve my skills or learning new things.<p>
+           
+        </div>
+    </section>
+    
+    <!-- Experience Section -->
+	<section id="experience">
+        <h2>Experience</h2>
+		<div class="content">
+            <p>This are the experiences that I have in chronological order.</p>
+            <ul>
+                <li>Dunman High School Outdoor Activities Club – Chairperson</li>
+                <p>
+                    The club activities that we had were training and going to various courses on kayaking, abseiling and rock climbing. 
+                    Eventually, we achieved Abseiling Level 2 Certification, Climbing Level 1 Certification and Kayaking Proficiency Personal Skill Two Star Award.
+                    We also organise hiking expeditions. I was the expedition leader for an expedition to Gunung Tahan, Pahang, Malaysia in 2015. 
+                    With the close guidance and advice by teachers in charge, I led the team to plan the expedition journey, prepare logistics and 
+                    navigated our way to the summit and back over a span of 4 days. 
+                    As the chairperson, I also oversaw welfare of my club members and assumed the roles of building up team spirit. 
+                </p>
+                <li>Singapore Armed Forces (SAF) – Lieutenant (Commando) </li>
+                <p>
+                    I was an officer in the Commando vocation during my National Military Service with the Singapore Armed Forces 
+                    from January 2017 to November 2018. I had to manage and motivate my detachment to perform under the most daunting 
+                    circumstances. I learnt to be meticulous in planning and this would help me analyse data of the subject matter at hand. 
+                    My experience from National Service has honed my leadership skills which I believe are crucial in driving engineering innovations 
+                    and project management. 
+                </p>
+                <li>AI for Industry – Practical Foundations in AI</li>
+                <p>
+                    Completed Data Scientist Track on DataCamp, covering modules such as Data Manipulation with Pandas, Data Visualisation with Bokeh, 
+                    Joining Data with SQL and Deep Learning with Keras. You can view some of my data science projects in my github which the link is given 
+                    in the <a href="#social">Connect</a> section.
+                </p>
+                <li>BrainHack Today I Learned AI Camp 2019</li>
+                <p>
+                    This was hackathon organised by Defence Science Technology Agency (Singapore) where we had to build and train an image classifier than can tell 
+                    what pose the human is making. I had a lot of fun working together with my teammates to do research and use various methods to train the 
+                    model such that we can get the best possible accuracy. We explored various models before coming together and incorporating different ideas 
+                    together to produce the best possible model. Racing against time, after the training phase and the presentation, we eventually emerged as 
+                    winners, it was a very satisfying experience, knowing that every single teammate contributed to the team’s success. Through that hackathon, 
+                    not only did I learn more about the various models that other teams used, I also learnt how to effectively work together in a team to code a 
+                    solution to a machine learning problem. You can view a repository of the machine learning model in my github which the link is given 
+                    in the <a href="#social">Connect</a> section.
+                </p>
+                
+                <li>Infocomm Media Development Authority (IMDA) Singapore Digital (SG:D) Scholar</li>
+                <p>
+                    Recipient of the an industry scholarship that is given to students that have a strong passion and potential to make an impact in the 
+                    technology sector. The scholarship empowers students pursuing Infocomm Media (ICM) related studies at the undergraduate level with 
+                    a wealth of opportunities. 
+                </p>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+	<section id="internship">
+        <h2>Internships</h2>
+		<div class="content">
+            <ul>
+                <li>Defence Science Technology Agency (DSTA)</li>
+                <p>From December 2018 to March 2019, I did an internship with Defence Science Technology Agency (Singapore). 
+                    My work comprised of researching and training various models that uses deep learning convolutional neural 
+                    networks for human re-identification projects. I was also chosen to give a Machine Learning introduction with 
+                    Google Colab workshop to high school students.
+                </p>
+                <li>Neuron Mobility</li>
+                <p>I also interned with Neuron Mobility Pte Ltd from June 2019 to September 2019, the largest E-scooter sharing 
+                    start-up in Southeast Asia. I was a Data Intern and helped to run data analysis and build data pipelines on 
+                    scooter and trip data. Joining at a phase of steep growth, I was also involved with other tasks such as the 
+                    launch of operations in another city, enhancing my versatility and problem-solving skills.
+                </p>
+            
+            </ul>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="social">
+        <h2>Connect With Me</h2>
+        <div class="content">
+            <p>Do connect or follow me on these social media platforms!</p>
+        </div>
+		<div class="social-icon">
+            <a href="https://www.linkedin.com/in/si-yu-lionel-tan-28a414105/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="currentColor" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <div class="social-icon">
+            <a href="https://github.com/sytan98">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="currentColor" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <div class="social-icon">
+            <a href="https://www.instagram.com/siyu_tann/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z" fill="currentColor" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+       <div class="social-icon">
+            <a href="https://www.facebook.com/siyu.tan.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" fill="currentColor" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+	<footer>
+		<div style ="float:right">
+			<p>Copyright &copy; Tan Si Yu 2019</p>
+		</div>
+    </footer>
+
+</body>
+</html>
