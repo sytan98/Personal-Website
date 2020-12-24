@@ -3,15 +3,29 @@ import React, {Component} from "react";
 export default class Home extends Component {
     render(){
         return(
-            <div className="container">
-                <h3>Lionel Tan</h3>
-                <div className="container">
-                    <p>I'm a first year at Imperial College London studying Electronic and Information Engineering. I'm a Singaporean who enjoys hiking and 
-                        doing outdoor activites. I have a strong passion in Data Science and am a current member of the Advanced Data Science Team in 
-                        Imperial College Data Science Society (ICDSS). I have a very strong drive in the pursuit of knowledge and am always seeking ways
-                        to improve my skills or learning new things.</p>
+            <section className="container resume-section" id="about">
+                <div className="resume-section-content">
+                    <h1 className="mb-0">
+                        Lionel
+                        <span className="text-primary">Tan</span>
+                    </h1>
+                    <div className="subheading mb-5">
+                        Imperial College London · United Kingdom · 
+                        <a className="text-primary" href="mailto:tansiyu1@gmail.com">tansiyu1@gmail.com</a>
+                    </div>
+                    <p className="lead mb-5">I'm a first year at Imperial College London studying Electronic and Information Engineering. I'm a Singaporean who enjoys hiking and 
+                    doing outdoor activites. I have a strong passion in Data Science and am a current member of the Advanced Data Science Team in 
+                    Imperial College Data Science Society (ICDSS). I have a very strong drive in the pursuit of knowledge and am always seeking ways
+                    to improve my skills or learning new things.</p>
+                    <div className="social-icons">
+                        <a className="social-icon" href="#"><i className="fab fa-linkedin-in"></i></a>
+                        <a className="social-icon" href="#"><i className="fab fa-github"></i></a>
+                        <a className="social-icon" href="#"><i className="fab fa-twitter"></i></a>
+                        <a className="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
-            </div>
+            </section>
+            
         )
     }
 }
