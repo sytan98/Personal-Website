@@ -3,55 +3,70 @@ import React, {Component} from "react";
 export default class Education extends Component {
     render(){
         return(
-            <section className="container">
-                <h2>Education</h2>
-                <div className="container">
-                    <p>This are the experiences that I have in chronological order.</p>
-                    <ul>
-                        <li>Dunman High School Outdoor Activities Club – Chairperson</li>
-                        <p>
-                            The club activities that we had were training and going to various courses on kayaking, abseiling and rock climbing. 
-                            Eventually, we achieved Abseiling Level 2 Certification, Climbing Level 1 Certification and Kayaking Proficiency Personal Skill Two Star Award.
-                            We also organise hiking expeditions. I was the expedition leader for an expedition to Gunung Tahan, Pahang, Malaysia in 2015. 
-                            With the close guidance and advice by teachers in charge, I led the team to plan the expedition journey, prepare logistics and 
-                            navigated our way to the summit and back over a span of 4 days. 
-                            As the chairperson, I also oversaw welfare of my club members and assumed the roles of building up team spirit. 
-                        </p>
-                        <li>Singapore Armed Forces (SAF) – Lieutenant (Commando) </li>
-                        <p>
-                            I was an officer in the Commando vocation during my National Military Service with the Singapore Armed Forces 
-                            from January 2017 to November 2018. I had to manage and motivate my detachment to perform under the most daunting 
-                            circumstances. I learnt to be meticulous in planning and this would help me analyse data of the subject matter at hand. 
-                            My experience from National Service has honed my leadership skills which I believe are crucial in driving engineering innovations 
-                            and project management. 
-                        </p>
-                        <li>AI for Industry – Practical Foundations in AI</li>
-                        <p>
-                            Completed Data Scientist Track on DataCamp, covering modules such as Data Manipulation with Pandas, Data Visualisation with Bokeh, 
-                            Joining Data with SQL and Deep Learning with Keras. You can view some of my data science projects in my github which the link is given 
-                            in the <a href="#social">Connect</a> section.
-                        </p>
-                        <li>BrainHack Today I Learned AI Camp 2019</li>
-                        <p>
-                            This was hackathon organised by Defence Science Technology Agency (Singapore) where we had to build and train an image classifier than can tell 
-                            what pose the human is making. I had a lot of fun working together with my teammates to do research and use various methods to train the 
-                            model such that we can get the best possible accuracy. We explored various models before coming together and incorporating different ideas 
-                            together to produce the best possible model. Racing against time, after the training phase and the presentation, we eventually emerged as 
-                            winners, it was a very satisfying experience, knowing that every single teammate contributed to the team’s success. Through that hackathon, 
-                            not only did I learn more about the various models that other teams used, I also learnt how to effectively work together in a team to code a 
-                            solution to a machine learning problem. You can view a repository of the machine learning model in my github which the link is given 
-                            in the <a href="#social">Connect</a> section.
-                        </p>
-                        
-                        <li>Infocomm Media Development Authority (IMDA) Singapore Digital (SG:D) Scholar</li>
-                        <p>
-                            Recipient of the an industry scholarship that is given to students that have a strong passion and potential to make an impact in the 
-                            technology sector. The scholarship empowers students pursuing Infocomm Media (ICM) related studies at the undergraduate level with 
-                            a wealth of opportunities. 
-                        </p>
-                    </ul>
-                </div>
-            </section>
+            <div>
+                <section class="resume-section" id="education">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Education</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">University of Colorado Boulder</h3>
+                                <div class="subheading mb-3">Bachelor of Science</div>
+                                <div>Computer Science - Web Development Track</div>
+                                <p>GPA: 3.23</p>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">James Buchanan High School</h3>
+                                <div class="subheading mb-3">Technology Magnet Program</div>
+                                <p>GPA: 3.56</p>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="resume-section" id="skills">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Skills</h2>
+                        <div class="subheading mb-3">Programming Languages & Tools</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        </ul>
+                        <div class="subheading mb-3">Workflow</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Mobile-First, Responsive Design
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Cross Browser Testing & Debugging
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Cross Functional Teams
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Agile Development & Scrum
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            
             
 
         )

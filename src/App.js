@@ -10,7 +10,7 @@ import Projects from "./components/projects.component";
 function App() {
   return (
     <Router>
-      <div className="backgrnd">
+      <div className="container">
         <Navbar/>
         <Route path = "/" exact component = {Home}/>
         <Route path = "/education" exact component = {Education}/>
