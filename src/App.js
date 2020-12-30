@@ -17,7 +17,6 @@ function App() {
         <Route path = "/experience" exact component = {Experience}/>
         <Route path = "/projects" exact component = {Projects}/>
       </div>
-
     </Router>
   );
 }
