@@ -5,8 +5,12 @@ function Thumbnail(props) {
       <div className="container-fluid mb-1">
         <div className="row">
           <div className="col-sm">
-            <div>{props.title}</div>
-            <div>{props.category}</div>
+            <div className="subheading mb-3">{props.title}</div>
+            <p className="lead mb-5">{props.category}</p>
+            <p>{props.description}</p>
+            <div className="social-icons">
+              <a className="social-icon" href={props.link}><i className="fab fa-github"></i></a>
+            </div>
           </div>
           <div className="col-sm">
             <a href={props.link}>
