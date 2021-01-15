@@ -18,7 +18,7 @@ export default class Home extends Component {
                         </div>
                         <p className="lead mb-5"><b>Hi there!</b> I'm a second year student at Imperial College London studying Electronic and Information Engineering. I'm a Singaporean who enjoys hiking and 
                         doing outdoor activites. I have a strong passion in Data Science and currently am the Head of Operations of 
-                        Imperial College Data Science Society (ICDSS). I am always in the pursuit of knowledge and seeking ways
+                        Imperial College Data Science Society (ICDSS). I am always in the pursuit of knowledge and  seeking ways
                         to improve my skills or learning new things.</p>
                         <div className="social-icons">
                             <a className="social-icon" href="https://www.linkedin.com/in/si-yu-lionel-tan-28a414105/"><i className="fab fa-linkedin-in"></i></a>
