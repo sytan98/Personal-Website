@@ -29,6 +29,7 @@ export default class Projects extends Component {
                             description="This project was part of BrainHack Today I Learned AI Camp 2020 Final stage. With a Tello API drone and a DJI Robomaster EP rover, our objective was to use the drone to fly and capture a bird's eye view of the arena and to plot out a path for the rover. The arena has routes that are black in colour which the rover is allowed to travel on and has obstacles littered around the arena. Thus, we will need to process the picture taken by the drone and plan a path from the start point to the end point that avoids the obstacles.
                             "
                         />
+                        <hr class="m-3" />
                         <Thumbnail
                             link="https://github.com/sytan98/Personal-Website"
                             image="img/project_3.jpg"
@@ -36,6 +37,15 @@ export default class Projects extends Component {
                             category="Web development"
                             description="I took an existing html template and customised it to use React Components to represent different parts of my Website. It was really fun way to learn React."
                         />
+                        <hr class="m-3" />
+                        <Thumbnail
+                            link="https://www.icdss.club/index.html"
+                            image="img/project_4.jpg"
+                            title="ICDSS Website"
+                            category="Web development"
+                            description="One of my first few ventures into web programming. Leveraged a pre exisiting template and customised it for the society. Had to pick up SCSS and bootstrap."
+                        />
+                        <hr class="m-3" />
                         <Thumbnail
                             link="https://github.com/sytan98/study-planner-app"
                             image="img/blank.jpg"
@@ -43,7 +53,7 @@ export default class Projects extends Component {
                             category="Full Stack Development"
                             description="The plan for this project is to create a full stack application to learn how to use Flask as a backend to create an API for my react frontend. It should give the functionality of recording different subjects as well as the tasks for each subject."
                         />
-
+                        <hr class="m-3" />
                     </div>
                     
                 </section>
