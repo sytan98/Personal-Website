@@ -48,7 +48,7 @@ export default class Projects extends Component {
                         <hr class="m-3" />
                         <Thumbnail
                             link="https://github.com/sytan98/study-planner-app"
-                            image="img/blank.jpg"
+                            image="img/project_5.jpg"
                             title="Study Planning App"
                             category="Full Stack Development"
                             description="The plan for this project is to create a full stack application to learn how to use Flask as a backend to create an API for my react frontend. It should give the functionality of recording different subjects as well as the tasks for each subject."
