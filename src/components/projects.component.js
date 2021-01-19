@@ -35,7 +35,7 @@ export default class Projects extends Component {
                             image="img/project_3.jpg"
                             title="Personal Website"
                             category="Web development"
-                            description="I took an existing html template and customised it to use React Components to represent different parts of my Website. It was really fun way to learn React."
+                            description="I took an existing html template and customised it to use React Components to represent different parts of my Website. It was really fun way to learn React. The website is hosted using gh pages."
                         />
                         <hr class="m-3" />
                         <Thumbnail
@@ -48,7 +48,7 @@ export default class Projects extends Component {
                         <hr class="m-3" />
                         <Thumbnail
                             link="https://github.com/sytan98/study-planner-app"
-                            image="img/project_5.jpg"
+                            image="img/project_6.jpg"
                             title="Study Planning App"
                             category="Full Stack Development"
                             description="The plan for this project is to create a full stack application to learn how to use Flask as a backend to create an API for my react frontend. It should give the functionality of recording different subjects as well as the tasks for each subject."
